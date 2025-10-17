@@ -1,0 +1,39 @@
+.list-page {
+  padding: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.list-header h2 {
+  color: #2779bd;
+}
+
+.search-input {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 250px;
+  outline: none;
+}
+
+.search-input:focus {
+  border-color: #3490dc;
+}
+
+.student-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.no-data {
+  text-align: center;
+  color: #666;
+}

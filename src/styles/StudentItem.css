@@ -1,0 +1,79 @@
+.student-card {
+  display: flex;
+  align-items: center;
+  background: #f9fcff;
+  border: 1px solid #d0e3f7;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(52, 144, 220, 0.15);
+  overflow: hidden;
+  width: 310px;
+  transition: 0.2s;
+}
+
+.student-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(52, 144, 220, 0.25);
+}
+
+.student-card-left {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.student-card-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.student-card-right {
+  flex-grow: 1;
+  padding: 12px;
+}
+
+.student-card-right h3 {
+  margin: 0 0 6px 0;
+  color: #2779bd;
+}
+
+.student-card-right p {
+  margin: 2px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.card-actions {
+  margin-top: 8px;
+  display: flex;
+  gap: 8px;
+}
+
+.card-actions button {
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.card-actions button:first-child {
+  background: #38c172;
+  color: white;
+}
+
+.card-actions button:first-child:hover {
+  background: #2fa360;
+}
+
+.card-actions .delete {
+  background: #e3342f;
+  color: white;
+}
+
+.card-actions .delete:hover {
+  background: #cc1f1a;
+}

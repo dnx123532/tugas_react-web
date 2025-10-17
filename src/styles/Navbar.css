@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #6cb2eb, #3490dc);
+  padding: 12px 24px;
+  color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.navbar .brand {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-right a {
+  color: white;
+  margin-left: 16px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.navbar-right a:hover {
+  text-decoration: underline;
+}

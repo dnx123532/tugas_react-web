@@ -36,7 +36,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home addStudent={addStudent} />} />
         <Route path="/list" element={<StudentList students={students} onDelete={deleteStudent} />} />
-        <Route path="/input" element={<Input addStudent={addStudent} />} /> {/* 👈 route baru */}
+        <Route path="/input" element={<Input addStudent={addStudent} />} />
         <Route path="/edit/:id" element={<Edit students={students} onUpdate={updateStudent} />} />
       </Routes>
     </>
